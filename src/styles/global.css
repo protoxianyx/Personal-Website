@@ -12,7 +12,7 @@
  */
 @custom-variant dark (&:is(.dark *));
 
- @import "tailwindcss";
+@import "tailwindcss";
 
 :root {
 	--accent: #2337ff;
