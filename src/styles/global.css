@@ -14,6 +14,19 @@
 
 @import "tailwindcss";
 
+@font-face {
+	font-family: 'Minecraft-Ten';
+	src: url('/public/fonts/Minecraft Ten.woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+	
+}
+
+@theme {
+	--color-saffron: #9B7106
+}
+
 :root {
 	--accent: #2337ff;
 	--accent-dark: #000d8a;
