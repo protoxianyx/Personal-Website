@@ -4,6 +4,7 @@ import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import { Button } from "@/components/ui/button";
+import { ThreeDCardDemo } from "@/components/threedemo";
 ---
 
 <!doctype html>
@@ -16,11 +17,13 @@ import { Button } from "@/components/ui/button";
 
     <div class="bg-saffron h-screen">
       <div class="flex justify-center">
+        <ThreeDCardDemo />
+
         <Button>Button 1</Button>
-      </div>
-      <div class="font-[Minecraft-Ten]">
-        <h1 class="flex justify-center text-[8em]">Welcome ,</h1>
-        <h6 class="flex justify-center ">To the landing page</h6>
+        <div class="font-[Minecraft-Ten]">
+          <h1 class="flex justify-center text-[8em]">Welcome ,</h1>
+          <h6 class="flex justify-center">To the landing page</h6>
+        </div>
       </div>
     </div>
   </body>
