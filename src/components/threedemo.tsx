@@ -3,6 +3,7 @@
 import Image from "astro:assets";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "./ui/3d-card";
+import Link from "./Link.astro";
 
 export function ThreeDCardDemo() {
   return (
@@ -33,11 +34,11 @@ export function ThreeDCardDemo() {
         <div className="flex justify-between items-center mt-20">
           <CardItem
             translateZ={20}
-            href="https://twitter.com/mannupaaji"
+            href="/newPage"
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
           >
-            Try now →
+            Try now now
           </CardItem>
           <CardItem
             translateZ={20}
