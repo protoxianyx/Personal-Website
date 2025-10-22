@@ -290,6 +290,12 @@ hr {
 	--color-sidebar-ring: var(--sidebar-ring);
 }
 
+@layer components {
+	square-box {
+		@apply border-2 w-[56px] aspect-square;
+	}
+}
+
 /*
   ---break---
  */
