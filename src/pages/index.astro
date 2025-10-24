@@ -1,9 +1,14 @@
 ---
+import { Separator } from "@/components/ui/separator";
 import BaseHead from "../components/BaseHead.astro";
 import Header from "../components/Header.astro";
 
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import { Button } from "@/components/ui/button";
+
+import Threedemo from "@/components/threedemo";
+
+// import { ResizableHandle, ResizablePanel, ResizablePanelGroup } from "@/components/ui/resizable";
 ---
 
 <!doctype html>
@@ -23,6 +28,12 @@ import { Button } from "@/components/ui/button";
         <h6>To the landing page</h6>
         <p>Homepage Under Construction</p>
       </div>
+      <Separator />
+      <div class="bg-amber-600 p-2">
+        <Threedemo client:load />
+      </div>
+
+      <Separator />
 
       <div
         class="flex w-full bg-amber-600 justify-between p-5 items-center h-200"
